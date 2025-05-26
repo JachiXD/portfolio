@@ -241,14 +241,14 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ margin: "-100px" }}
           className="max-w-7xl mx-auto"
         >
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-4xl font-bold text-white mb-8"
           >
             About Me
@@ -258,7 +258,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="text-gray-300 leading-relaxed mb-6"
             >
               I am a passionate developer with a deep love for coding and artificial intelligence. My journey in technology 
@@ -270,7 +270,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="text-gray-300 leading-relaxed"
             >
               My expertise spans across web development, AI implementation, and creating user-friendly interfaces. 
@@ -288,14 +288,14 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          viewport={{ once: true }}
+          viewport={{ margin: "-100px" }}
           className="max-w-7xl mx-auto"
         >
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-4xl font-bold text-white mb-12"
           >
             Career Goals
@@ -305,7 +305,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
             >
               <div className="flex items-center mb-4">
@@ -323,7 +323,7 @@ export default function Home() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
             >
               <div className="flex items-center mb-4">
@@ -347,14 +347,14 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          viewport={{ once: true }}
+          viewport={{ margin: "-100px" }}
           className="max-w-7xl mx-auto"
         >
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-4xl font-bold text-white mb-12"
           >
             Achievements
@@ -364,7 +364,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
             >
               <div className="flex items-center mb-4">
@@ -379,7 +379,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
             >
               <div className="flex items-center mb-4">
@@ -394,7 +394,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
             >
               <div className="flex items-center mb-4">
@@ -416,7 +416,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-4xl font-bold text-white mb-12"
           >
             Projects
@@ -426,7 +426,7 @@ export default function Home() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               whileHover={{ y: -8, scale: 1.02 }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500"
             >
@@ -452,7 +452,7 @@ export default function Home() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              viewport={{ once: true }}
+              viewport={{ margin: "-100px" }}
               whileHover={{ y: -8, scale: 1.02 }}
               className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500"
             >
@@ -484,14 +484,14 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          viewport={{ once: true }}
+          viewport={{ margin: "-100px" }}
           className="max-w-7xl mx-auto text-center"
         >
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-4xl font-bold text-white mb-8"
           >
             Get in Touch
@@ -500,7 +500,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            viewport={{ once: true }}
+            viewport={{ margin: "-100px" }}
             className="text-gray-300 mb-8 text-lg"
           >
             I&apos;m always interested in hearing about new projects and opportunities.

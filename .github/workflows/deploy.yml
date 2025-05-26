@@ -34,9 +34,26 @@ jobs:
           npm install --no-audit --no-fund
           npm install -D tailwindcss@latest postcss@latest autoprefixer@latest --no-audit --no-fund
           
-      - name: Setup Tailwind
+      - name: Create Tailwind config
         run: |
-          npx tailwindcss init -p
+          echo 'module.exports = {
+            content: [
+              "./app/**/*.{js,ts,jsx,tsx,mdx}",
+              "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+              "./components/**/*.{js,ts,jsx,tsx,mdx}",
+            ],
+            theme: {
+              extend: {},
+            },
+            plugins: [],
+          }' > tailwind.config.js
+          
+          echo 'module.exports = {
+            plugins: {
+              tailwindcss: {},
+              autoprefixer: {},
+            },
+          }' > postcss.config.js
           
       - name: Build
         run: |

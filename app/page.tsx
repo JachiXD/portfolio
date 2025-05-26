@@ -282,6 +282,133 @@ export default function Home() {
         </motion.div>
       </section>
 
+      {/* Career Goals Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          viewport={{ once: true }}
+          className="max-w-7xl mx-auto"
+        >
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            viewport={{ once: true }}
+            className="text-4xl font-bold text-white mb-12"
+          >
+            Career Goals
+          </motion.h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+              viewport={{ once: true }}
+              className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <Target className="h-8 w-8 text-blue-400 mr-3" />
+                <h3 className="text-2xl font-semibold text-white">Short-term Goals</h3>
+              </div>
+              <ul className="text-gray-300 space-y-3">
+                <li>• Master advanced AI and machine learning concepts</li>
+                <li>• Develop expertise in full-stack development</li>
+                <li>• Build a strong portfolio of innovative projects</li>
+                <li>• Contribute to open-source AI projects</li>
+              </ul>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+              viewport={{ once: true }}
+              className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <Globe className="h-8 w-8 text-blue-400 mr-3" />
+                <h3 className="text-2xl font-semibold text-white">Long-term Goals</h3>
+              </div>
+              <ul className="text-gray-300 space-y-3">
+                <li>• Lead innovative AI projects in a tech company</li>
+                <li>• Create impactful AI solutions for real-world problems</li>
+                <li>• Mentor aspiring developers and AI enthusiasts</li>
+                <li>• Contribute to the advancement of AI technology</li>
+              </ul>
+            </motion.div>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Achievements Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50 backdrop-blur-sm">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          viewport={{ once: true }}
+          className="max-w-7xl mx-auto"
+        >
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            viewport={{ once: true }}
+            className="text-4xl font-bold text-white mb-12"
+          >
+            Achievements
+          </motion.h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+              viewport={{ once: true }}
+              className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <Award className="h-8 w-8 text-blue-400 mr-3" />
+                <h3 className="text-2xl font-semibold text-white">CBSE Winner</h3>
+              </div>
+              <p className="text-gray-300">
+                First place in CBSE competition for innovative AI chatbot and machine learning projects
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              viewport={{ once: true }}
+              className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <Code className="h-8 w-8 text-blue-400 mr-3" />
+                <h3 className="text-2xl font-semibold text-white">AI Projects</h3>
+              </div>
+              <p className="text-gray-300">
+                Developed multiple AI-powered applications showcasing practical implementation of machine learning
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+              viewport={{ once: true }}
+              className="bg-gray-800/80 backdrop-blur-xl p-8 rounded-2xl shadow-lg"
+            >
+              <div className="flex items-center mb-4">
+                <Target className="h-8 w-8 text-blue-400 mr-3" />
+                <h3 className="text-2xl font-semibold text-white">Web Development</h3>
+              </div>
+              <p className="text-gray-300">
+                Created modern, responsive web applications using cutting-edge technologies
+              </p>
+            </motion.div>
+          </div>
+        </motion.div>
+      </section>
+
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -307,11 +434,19 @@ export default function Home() {
                 <Code className="h-8 w-8 text-blue-400 mr-3" />
                 <h3 className="text-2xl font-semibold text-white">AI Chatbot</h3>
               </div>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed mb-4">
                 Developed an advanced AI chatbot using natural language processing and machine learning
                 techniques. The project demonstrated practical applications of AI in real-world scenarios
                 and won first place in the CBSE competition.
               </p>
+              <div className="flex gap-4">
+                <Link href="https://github.com/JachiXD/ai-chatbot" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  View Code
+                </Link>
+                <Link href="https://ai-chatbot-demo.com" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  Live Demo
+                </Link>
+              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
@@ -325,11 +460,19 @@ export default function Home() {
                 <Code className="h-8 w-8 text-blue-400 mr-3" />
                 <h3 className="text-2xl font-semibold text-white">Machine Learning Project</h3>
               </div>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed mb-4">
                 Created an innovative machine learning solution that showcased advanced data analysis
                 and predictive modeling capabilities. This project contributed to winning the CBSE
                 competition and demonstrated practical applications of ML in solving real-world problems.
               </p>
+              <div className="flex gap-4">
+                <Link href="https://github.com/JachiXD/ml-project" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  View Code
+                </Link>
+                <Link href="https://ml-project-demo.com" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  Live Demo
+                </Link>
+              </div>
             </motion.div>
           </div>
         </div>

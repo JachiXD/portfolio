@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jay Takle - Portfolio",
-  description: "Portfolio website of Jay Takle, AI & Machine Learning Enthusiast and CBSE Winner. Currently pursuing JEE preparation and Computer Science.",
+  title: "Jay T - Portfolio",
+  description: "Full Stack Developer & AI Enthusiast",
   keywords: ["Jay Takle", "Portfolio", "AI", "Machine Learning", "Web Development", "CBSE Winner", "JEE", "Computer Science"],
   authors: [{ name: "Jay Takle" }],
   creator: "Jay Takle",
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>

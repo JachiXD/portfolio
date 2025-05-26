@@ -28,7 +28,9 @@ jobs:
           
       - name: Install dependencies
         run: |
-          npm install --legacy-peer-deps
+          npm install
+          npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+          npx tailwindcss init -p
           npm cache clean --force
           
       - name: Debug Info
@@ -41,6 +43,8 @@ jobs:
           pwd
           echo "Directory contents:"
           ls -la
+          echo "Checking node_modules:"
+          ls -la node_modules/tailwindcss
           
       - name: Build
         run: |

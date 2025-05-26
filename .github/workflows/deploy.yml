@@ -28,10 +28,16 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
-        
+        run: |
+          npm install
+          npm cache clean --force
+          
       - name: Build
-        run: npm run build
+        run: |
+          npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          NODE_ENV: production
         
       - name: Setup Pages
         uses: actions/configure-pages@v4

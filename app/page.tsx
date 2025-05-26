@@ -274,7 +274,7 @@ export default function Home() {
               className="text-gray-300 leading-relaxed"
             >
               My expertise spans across web development, AI implementation, and creating user-friendly interfaces. 
-              I'm particularly interested in how AI can be leveraged to create better user experiences and solve 
+              I&apos;m particularly interested in how AI can be leveraged to create better user experiences and solve 
               real-world problems. My goal is to combine my technical skills with my passion for innovation to 
               create meaningful digital solutions.
             </motion.p>
@@ -304,7 +304,7 @@ export default function Home() {
                 <Globe className="h-8 w-8 text-blue-400 mr-4 mt-1" />
                 <div>
                   <h3 className="text-2xl font-semibold mb-3 text-white">Cultural Heritage</h3>
-                  <p className="text-gray-300 leading-relaxed">
+                  <p className="text-gray-300 leading-relaxed mb-6">
                     As a proud Maharashtrian from India, I bring a rich cultural perspective to my work. 
                     My Indian heritage has instilled in me values of hard work, perseverance, and a deep 
                     appreciation for both tradition and innovation. This cultural background has shaped my 
@@ -325,7 +325,7 @@ export default function Home() {
                 <div>
                   <h3 className="text-2xl font-semibold mb-3 text-white">Global Perspective</h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Growing up in India's diverse and dynamic environment has given me a unique perspective 
+                    Growing up in India&apos;s diverse and dynamic environment has given me a unique perspective 
                     on technology and innovation. I combine traditional Indian values with modern technological 
                     approaches, creating solutions that are both innovative and culturally aware. This blend of 
                     perspectives helps me bring fresh ideas to every project I undertake.
@@ -369,7 +369,7 @@ export default function Home() {
                 <p className="text-gray-300 leading-relaxed">
                   I have successfully completed my 10th standard education and am currently pursuing JEE preparation 
                   alongside Computer Science. My focus is on building a strong foundation in both technical and 
-                  competitive aspects of my education. I'm passionate about technology and aim to combine my 
+                  competitive aspects of my education. I&apos;m passionate about technology and aim to combine my 
                   academic knowledge with practical skills to create innovative solutions.
                 </p>
               </div>
@@ -505,7 +505,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-gray-300 mb-8 text-lg"
           >
-            I'm always interested in hearing about new projects and opportunities.
+            I&apos;m always interested in hearing about new projects and opportunities.
           </motion.p>
           <motion.a
             whileHover={{ scale: 1.05, y: -2 }}

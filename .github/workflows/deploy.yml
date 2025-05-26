@@ -28,13 +28,10 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: |
-          npm install
-          npm cache clean --force
-          
+        run: npm install
+        
       - name: Build
-        run: |
-          npm run build
+        run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: 1
           NODE_ENV: production

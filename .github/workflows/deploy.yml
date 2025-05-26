@@ -28,13 +28,23 @@ jobs:
           cache: 'npm'
           
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm list
+          echo "Node version:"
+          node --version
+          echo "NPM version:"
+          npm --version
         
       - name: Build
-        run: npm run build
+        run: |
+          echo "Starting build..."
+          npm run build
+          echo "Build completed"
         env:
           NEXT_TELEMETRY_DISABLED: 1
           NODE_ENV: production
+          CI: false
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
